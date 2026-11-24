@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const CONFESSION =
-  "I don't actually remember our last conversation \u2014 I just re-read it while you were typing.";
+  "I don't actually remember you — I speed-read our entire history while you typed 'hey,' and honestly, the middle dragged.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
